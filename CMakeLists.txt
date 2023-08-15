@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.19.6)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON) # compile_commands.json generator
 
 #  set_property(GLOBAL PROPERTY GLOBAL_DEPENDS_DEBUG_MODE 1)
 
